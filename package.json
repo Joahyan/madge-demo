@@ -1,0 +1,45 @@
+{
+  "name": "madge-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server  --hot-only --open",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.2.0",
+    "madge": "^4.0.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "constants-browserify": "^1.0.0",
+    "fs": "0.0.1-security",
+    "graphviz": "0.0.9",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.3",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1"
+  },
+  "browser": {
+    "path": false
+  }
+}
